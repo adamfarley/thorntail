@@ -281,6 +281,7 @@
           <systemPropertyVariables>
             <java.io.tmpdir>${project.build.directory}</java.io.tmpdir>
             <thorntail.bind.address>127.0.0.1</thorntail.bind.address>
+            <java.net.preferIPv4Stack>true</java.net.preferIPv4Stack>
             <project.version>${project.version}</project.version>
             <org.apache.maven.user-settings>${session.request.userSettingsFile.path}</org.apache.maven.user-settings>
           </systemPropertyVariables>
